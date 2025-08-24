@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crypto Crazy</title>
+  <style>
+   
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    
+
+  
+   
+
+
+    
+  
+
+   
+   
+    /* Ajuste da margem do main para o menu */
+    main {
+      margin-left: 50px;
+      padding: 40px 20px;
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: margin-left 0.3s ease;
+    }
+
+    
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #00ffcc;
+      text-align: center;
+    }
+
+    p.description {
+      font-size: 1.2em;
+      color: #ccc;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 220px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      padding: 15px 20px;
+      border-radius: 10px;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .buttons a.rollercoin {
+      background-color: #001f3f;
+      color: #fff;
+      border: 2px solid #004080;
+    }
+    .buttons a.rollercoin:hover {
+      background-color: #003366;
+      transform: scale(1.05);
+    }
+
+    .buttons a.limercoin {
+      background-color: #ccff00;
+      color: #000;
+      border: 2px solid #99cc00;
+    }
+    .buttons a.limercoin:hover {
+      background-color: #b3e600;
+      transform: scale(1.05);
+    }
+
+    .buttons a.blocklooter {
+      background-color: #4b0082;
+      color: #fff;
+      border: 2px solid #38006b;
+    }
+    .buttons a.blocklooter:hover {
+      background-color: #36005c;
+      transform: scale(1.05);
+    }
+
+    footer {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 0.9em;
+  color: #666;
+  text-align: right;
+  z-index: 1000;
+}
+
+  </style>
+</head>
+<body>
+
+
+  <main>
+    <h1>Projetos de Mineração</h1> 
+    <p class="description">Oque são Projetos de Mineração?
+      É o processo de extração de recursos de forma virtual ou seja utilizando apenas a sua internet.
+	  Conclua missões e participe de eventos diários/semanais/mensais, compre racks e mineradores de alto desempenho, desbloqueie salas e muito mais para aumentar seu poder de mineração.
+	  E o mais importante use a sua estratégia de forma legal e ganhe recompensas em criptomoedas diariamente.</p>
+
+<p style="font-size: 1.1em; color: #00ffcc; margin-bottom: 15px; text-align: center;">
+  CLIQUE E COMEÇE AGORA GRATUITO
+</p>
+
+<div class="buttons">
+
+      <a class="rollercoin" href="https://rollercoin.com/?r=lfiww6qx" target="_blank" rel="noopener noreferrer">RollerCoin</a>
+      <a class="limercoin" href="https://limercoin.com/?ref=lqbyzzjd" target="_blank" rel="noopener noreferrer">Limercoin</a>
+      <a class="blocklooter" href="https://blocklooter.com/?r=8085" target="_blank" rel="noopener noreferrer">Blocklooter</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Crypto Crazy. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
